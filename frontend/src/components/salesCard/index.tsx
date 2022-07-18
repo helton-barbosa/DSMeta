@@ -1,4 +1,6 @@
 import icon from "../../assets/img/notification-icon.svg"
+import NotificationButton from "../NotificationButton"
+import "./styles.css"
 
 function SalesCard() {
    return (
@@ -38,9 +40,20 @@ function SalesCard() {
                         <td>R$ 55300.00</td>
                         <td>
                            <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
+                              <NotificationButton />
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td className="show992">#341</td>
+                        <td className="show576">08/07/2022</td>
+                        <td>Anakin</td>
+                        <td className="show992">15</td>
+                        <td className="show992">11</td>
+                        <td>R$ 55300.00</td>
+                        <td>
+                           <div className="dsmeta-red-btn-container">
+                              <NotificationButton />
                            </div>
                         </td>
                      </tr>
@@ -68,9 +81,7 @@ function SalesCard() {
                         <td>R$ 55300.00</td>
                         <td>
                            <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
+                              <NotificationButton />
                            </div>
                         </td>
                      </tr>
@@ -89,111 +100,7 @@ function SalesCard() {
                            </div>
                         </td>
                      </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td className="show992">#341</td>
-                        <td className="show576">08/07/2022</td>
-                        <td>Anakin</td>
-                        <td className="show992">15</td>
-                        <td className="show992">11</td>
-                        <td>R$ 55300.00</td>
-                        <td>
-                           <div className="dsmeta-red-btn-container">
-                              <div className="dsmeta-red-btn">
-                                 <img src={icon} alt="Notificar" title="Notificar Vendedor" />
-                              </div>
-                           </div>
-                        </td>
-                     </tr>
+                     
 
                   </tbody>
                </table>
